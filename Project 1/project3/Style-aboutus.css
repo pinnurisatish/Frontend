@@ -1,0 +1,248 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 6.11111vw;
+    //position: fixed;
+    background-color: #f4f4f7;
+}
+.header .header-items {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+.header .header-items .item {
+            display: flex;
+            justify-content: flex-end;
+            float: right;
+            font-weight: 300;
+            margin-right: 10px;
+            padding: 10px;
+            text-decoration: none;
+            list-style-type: none;
+            text-transform: uppercase;
+        }
+
+.header .header-items .item:hover {
+                text-decoration: underline;
+                transition: 0.6s ease;
+            }
+
+.logo {
+    width: 9.23vw;
+    height: 3.19vw;
+    text-align: center;
+    margin-left: 43px;
+    margin-top: 20px;
+}
+
+.sign-up-btn {
+    width: 6.59vw;
+    height: 32px;
+    color: #ff7500; 
+    font-weight: 300;
+    border-radius: 6.9vw;
+    border: 1px solid #ff7500;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+.header .header-items .item .sign-up-btn:hover {
+    background-color: #ff7500;
+    color: white;
+    text-decoration: none !important;
+}
+
+
+.mroads-about-us {
+    //padding-top: 4.16667vw;
+    background-color: #f5f5f5;
+}
+.mroads-bg-image {
+    height: 20.13889vw;
+    width: 93.40278vw;
+    margin: 0px 40px 0px 40px;
+    background-color: #fff;
+}
+.portlet-main{
+    background-color:#f5f5f5;
+}
+
+.portlet-body {
+    width: 93.40278vw;
+    margin: 0 auto;
+    //position: relative;
+    background-color: #fff;
+    word-break: normal;
+}
+.meta-portlet-body {
+    line-height: 1.94444vw;
+    width: 52.08333vw;
+    margin: 0 auto;
+    color: #666;
+}
+.portlet-text {
+    padding-bottom: 1.38889vw;
+    color: #666;
+    
+}
+.h3b {
+    font-size: 1.18056vw;
+}
+.blog-quote {
+    margin: 0 auto;
+    padding: 4.86111vw 0;
+}
+
+.close .open{
+    width: 2.91667vw;
+    font-weight: 700;
+    color: gray;
+    letter-spacing: 0;
+}
+
+.open{
+    float:right;
+}
+
+.h1a {
+    font-size: 2.22222vw;
+}
+.quote-text {
+    line-height: 2.77778vw;
+    width: 46.73611vw;
+    margin: 0 auto;
+    color: #666;
+    padding-top: 1.875vw;
+    padding-bottom: 1.875vw;
+}
+.meet-board {
+    padding-top: 4.86111vw;
+}
+.meet-text {
+    font-size: 2.91667vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+    padding-bottom: 4.86111vw;
+}
+
+.meet-members {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #f5f5f5;
+}
+.meet-member {
+    padding: 4.86111vw 0 4.86111vw 6.94444vw;
+}
+.member-img {
+    width: 24.30556vw;
+}
+.member-text {
+    padding: 4.86111vw 0 4.86111vw 6.94444vw;
+}
+member-title {
+    font-size: 1.94444vw;
+    font-weight: 600;
+    color: #666;
+}
+.member-recog {
+    color: #00dbff;
+    padding-bottom: 1.38889vw;
+}
+.second-member {
+    width: 93.54167vw;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.member-display-change {
+    line-height: 1.94444vw;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 5.83333vw;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.footer-menu-list {
+    display: flex;
+    text-transform: uppercase;
+    //align-items:center;
+    //justify-content:center;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.youtube-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.fb-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.twitter-icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
